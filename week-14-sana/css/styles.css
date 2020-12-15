@@ -1,0 +1,515 @@
+/*General Site rules*/
+
+body {
+    /*    background-color: cadetblue;*/
+    background: url(../img/bg-sky-3.JPG);
+    /*    background-blend-mode: overlay;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*    background-position: bottom;*/
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.toc-body {
+    background: url(../img/bg-sky-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.space-tb {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.space-tb a:hover {
+    color: lightcoral;
+}
+
+.space-tb a:link {
+    text-decoration: none;
+}
+
+.heading-spacing {
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+}
+
+/*
+.masthead {
+    background-color: #1abc9c;
+    padding-top: 5rem;
+}
+*/
+
+.ref-masthead {
+    background-color: white;
+    opacity: .95;
+    padding-top: 0;
+}
+
+.ref-masthead img {
+    max-width: 25%;
+}
+
+.assignment {
+    background-color: white;
+    color: darkslategray;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    /*    margin-bottom: 2rem;*/
+    margin: auto;
+    max-width: 72%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.assignment a:link {
+    text-decoration: none;
+}
+
+.assignment:hover {
+    color: lightcoral;
+}
+
+
+.assign-img {
+    border: 7px ridge white;
+    margin-top: 1.2rem;
+    max-width: 72%;
+    padding: 1rem;
+    /*    transition: filter 2s ease;*/
+    transition-duration: 1s;
+}
+
+.assign-img:hover {
+    border: 5px solid lightcoral;
+    /*    border-image-outset: 10px;*/
+    /*    border-spacing: 25px;*/
+    /*    filter: drop-shadow(-1px 1px 7px coral);*/
+}
+
+.mybackground1 {
+    margin-top: 8rem;
+}
+
+.mybackground2 {
+    margin-top: 8rem;
+}
+
+
+.mybackground1,
+.mybackground3 {
+    /*    background-color: #1a53ff;*/
+    /*
+    color: #ffffff;
+    margin-top: 2rem;
+*/
+}
+
+.mybackground2,
+.mybackground4 {
+    /*     margin-top: 2rem;*/
+    /*    background-color: #1abc9c;*/
+}
+
+.footer {
+    color: white;
+    font-size: 1rem;
+    margin: auto;
+}
+
+/*Refections page rules*/
+
+.heading-spacing {
+    background-color: white;
+    opacity: .95;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 10px;
+    padding: 2rem;
+    margin-bottom: -7rem;
+}
+
+.essay {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin: 0 1rem 5rem 1rem;
+}
+
+.essay1 {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin: 1rem;
+}
+
+a,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+.essay-thumb {
+    margin: 1rem 2rem 2rem 2rem;
+}
+
+.essay-thumb1 {
+    margin: 2rem 2rem 7rem 2rem;
+}
+
+.essay-thumb img {
+    transition: filter 1.5s ease;
+}
+
+.essay-thumb img:hover {
+    filter: grayscale(100%);
+    opacity: .8;
+}
+
+.essay-thumb1 img {
+    transition: filter 1.5s ease;
+}
+
+.essay-thumb1 img:hover {
+    filter: grayscale(100%);
+    opacity: .8;
+}
+
+.site-title {
+    left: 20vw;
+    position: absolute;
+    top: 50vh;
+}
+
+.ref-nav {
+    /*    border: 3px solid floralwhite;*/
+    background-color: white;
+    padding: 1rem;
+    /*    margin-top: 4rem;*/
+}
+
+.ref-nav a:hover {
+    color: lightcoral;
+}
+
+.nav-item {
+    font-family: 'Raleway', sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+
+.nav-link {
+    color: black;
+    /*    padding: 0 4rem 0 4rem;*/
+}
+
+.nav-icon {
+    margin: 1rem;
+}
+
+.ftr {
+    display: none;
+}
+
+/*Welcome page rules*/
+
+
+.main-title {
+    /*        background-color: floralwhite;*/
+    margin: .5rem;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+}
+
+.title-text:hover {
+    color: floralwhite;
+}
+
+.title-text {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.course-text {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.professor {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 200;
+    padding-top: .5rem;
+    text-align: center;
+}
+
+.student-name {
+    color: white;
+    /*    font-family: 'Cormorant Garamond', serif;*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 8px;
+    margin-top: 20rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+    background-color: cadetblue;
+}
+
+.ui-dialog {
+    padding: 0;
+    position: inherit;
+}
+
+.ui-dialog .ui-dialog-title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: .8rem;
+    letter-spacing: 5px;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.ui-widget-content {
+    align-items: center;
+    background-color: aliceblue;
+    /*    background-color: #233536;*/
+    color: darkslategray;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.ui-widget-content a {
+    color: darkslategray;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.ui-widget-content a:hover {
+    color: lightcoral;
+}
+
+.sana:hover {
+    color: goldenrod;
+}
+
+footer {
+    color: floralwhite;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 100;
+    /*    margin-top: 45rem;*/
+    text-align: center;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+.background-video {
+    background: url(../media/thumbnails/autumn.jpg) no-repeat;
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+    width: auto;
+    z-index: -100;
+}
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+
+
+    .main-title {
+        padding-bottom: 4rem;
+        padding-top: 1rem;
+    }
+
+
+    .title-text {
+        font-size: 1rem;
+    }
+
+    .course-text {
+        font-size: 3rem;
+        font-weight: 300;
+        letter-spacing: 20px;
+    }
+
+    .professor {
+        font-size: 2rem;
+    }
+
+    .student-name {
+        font-size: 3rem;
+        font-weight: 300;
+        margin-top: 20rem;
+    }
+
+    .essay {
+        font-size: .5rem;
+        line-height: 1px;
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+
+    .main-title {
+        margin: auto;
+        padding-bottom: 2rem;
+        padding-top: 8rem;
+    }
+
+    .title-text {
+        font-size: 3.5rem;
+    }
+
+    .course-text {
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 15px;
+    }
+
+    .professor {
+        font-size: 2.5rem;
+    }
+
+    .student-name {
+        font-size: 2rem;
+        font-weight: 300;
+        margin-top: 40rem;
+    }
+
+    .essay {
+        font-size: 1rem;
+        line-height: 1.4;
+        margin: 6rem 4rem 8rem 4rem;
+    }
+
+    .essay1 {
+        font-size: 1rem;
+        line-height: 1.4;
+        margin: 6rem 4rem 8rem 4rem;
+    }
+
+    .essay-thumb {
+        margin: 12rem 2rem 10rem 4rem;
+    }
+
+    .essay-thumb1 {
+        margin: 12rem 4rem 10rem 2rem;
+    }
+    
+    .ftr {
+        display: contents;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .main-title {
+        margin: auto;
+        padding-bottom: 2rem;
+        padding-top: 4rem;
+    }
+
+    .title-text {
+        font-size: 3rem;
+    }
+
+    .course-text {
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 15px;
+    }
+
+    .professor {
+        font-size: 2rem;
+    }
+
+    .student-name {
+        font-size: 2rem;
+        font-weight: 300;
+        margin-top: 20rem;
+    }
+
+    .assignment {
+        font-size: 1.3rem;
+        letter-spacing: 10px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .heading-spacing {
+        font-size: 1.3rem;
+        letter-spacing: 10px;
+    }
+
+    .nav-item {
+        font-size: 1.1rem;
+    }
+
+    .nav-link {
+        padding: 1rem 4rem 1rem 4rem;
+    }
+
+    .essay {
+        font-size: 1.2rem;
+        line-height: 1.7;
+        margin: 1rem 4rem 3rem 4rem;
+    }
+
+    .essay1 {
+        font-size: 1.2rem;
+        line-height: 1.7;
+        margin: 1rem 4rem 3rem 4rem;
+    }
+    
+    .essay-thumb {
+        margin: 1rem 4rem 3rem 4rem;
+    }
+
+    .essay-thumb1 {
+        margin: 1rem 4rem 3rem 4rem;
+    }
+}
